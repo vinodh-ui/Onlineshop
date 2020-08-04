@@ -8,11 +8,11 @@ import {Productprovider} from './Contextapi/Contextapi'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Productprovider>
-      
+    
+
     <App />
 
-    </Productprovider>
+    
   
   </React.StrictMode>,
   document.getElementById('root')
