@@ -4,16 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {Productprovider} from './Contextapi/Contextapi'
-
-
 ReactDOM.render(
   <React.StrictMode>
-    
-
-    <App />
-
-    
-  
+      <App />
+     
   </React.StrictMode>,
   document.getElementById('root')
 );
